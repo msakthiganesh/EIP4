@@ -1,4 +1,7 @@
-Group Members : Pranav Piyush
+Group Members : Pranav Piyush (https://github.com/fatsoengineer/EIP_4/tree/master/Week_2)
+
+
+print(score) : [0.019144815586134793, 0.9946]
 
 Train on 60000 samples, validate on 10000 samples
 Epoch 1/20
@@ -82,5 +85,13 @@ Epoch 20/20
 Epoch 00020: LearningRateScheduler setting learning rate to 0.000424869.
 60000/60000 [==============================] - 10s 172us/step - loss: 0.0950 - acc: 0.9565 - val_loss: 0.0191 - val_acc: 0.9946
 
+----------------------------------------------------------------------------------------------------------------
 
-print(score) : [0.019144815586134793, 0.9946]
+# Strategy
+
+- In the initial time, we tried reducing the no of layers keeping in mind the kernel size be same as before, like 16, 32. But didn't get high accuracy. If we try to increase the kernel size, the no of parameters would sky-rocket.
+Also, if to accomoddate more number of higher kernel size to restrict no of parameters, if we try to reduce no of layers, the accuracy went down.
+
+- So, we tried to restict the kernel size to 10, 16 and increase the no on layers if necessary, for the number of parameters not to exceed 15,000 and get the desired result, which we acheived.
+
+- Also, in notebook 8, 1x1 convolution was done before maxpooling, we moved it after maxpooling. 
