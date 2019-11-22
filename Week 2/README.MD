@@ -89,7 +89,7 @@ Epoch 00020: LearningRateScheduler setting learning rate to 0.000424869.
 
 # Strategy
 
-- In the initial time, we tried reducing the no of layers keeping in mind the kernel size be same as before, like 16, 32. But didn't get high accuracy. If we try to increase the kernel size, the no of parameters would sky-rocket.
+- Initially, we tried reducing the no of layers keeping in mind the kernel size be same as before, like 16, 32. But didn't get high accuracy. If we try to increase the kernel size, the no of parameters would sky-rocket.
 Also, if to accomoddate more number of higher kernel size to restrict no of parameters, if we try to reduce no of layers, the accuracy went down.
 
 - So, we tried to restict the kernel size to 10, 16 and increase the no on layers if necessary, for the number of parameters not to exceed 15,000 and get the desired result, which we acheived.
