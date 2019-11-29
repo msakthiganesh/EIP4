@@ -1,3 +1,5 @@
+#### Group Members: Pranav Piyush (https://github.com/fatsoengineer/EIP_4/tree/master/Week_3)
+
 ### Final Validation Accuracy of Base Network: 81.75
 
 ## Model Definition:
