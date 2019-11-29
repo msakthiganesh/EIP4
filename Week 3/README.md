@@ -1,4 +1,4 @@
-## Final Validation Accuracy of Base Network: 81.75
+### Final Validation Accuracy of Base Network: 81.75
 
 ## Model Definition:
 
