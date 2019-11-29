@@ -2,6 +2,7 @@
 
 ## Model Definition:
 
+```python
 model = Sequential()
 
 model.add(SeparableConv2D(32, (3, 3), padding='same', input_shape=(32, 32, 3))) # O/P Size: 32x32x32 , RF:3X3
@@ -27,6 +28,7 @@ model.add(Dropout(0.1))
 
 model.add(SeparableConv2D(128, (3, 3), padding='same'))# O/P Size: 8x8x128, RF:24x24
 model.add(Activation('relu'))
+
 model.add(BatchNormalization())
 
 model.add(SeparableConv2D(128, (3, 3), padding='same'))# O/P Size: 8x8x128, RF:32x32
@@ -48,9 +50,10 @@ model.add(Dropout(0.1))
 model.add(SeparableConv2D(10, 4))
 model.add(Flatten())
 model.add(Activation('softmax'))
+```
 
 ## Model Summary:
-
+```
 Model: "sequential_1"
 _________________________________________________________________
 Layer (type)                 Output Shape              Param #   
@@ -125,9 +128,9 @@ Total params: 77,243
 Trainable params: 75,879
 Non-trainable params: 1,364
 _________________________________________________________________
-
+```
 ## Log:
-
+```
 Epoch 1/50
 
 Epoch 00001: LearningRateScheduler setting learning rate to 0.003.
@@ -331,3 +334,4 @@ Epoch 00050: LearningRateScheduler setting learning rate to 0.000180386.
 Model took 388.29 seconds to train
 
 Accuracy on test data is: 83.03
+```
