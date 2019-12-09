@@ -1,1 +1,1 @@
-Annotated in LMS Portal
+Annotated using Online Portal
