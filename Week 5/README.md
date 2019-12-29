@@ -21,7 +21,7 @@ val_emotion_output_acc: 0.7223
 ```
 
 ### Loss Plot:
-
+![Model Loss Image](https://github.com/yasuo19/EIP4/blob/master/Week%205/Model_Loss.png)
 
 
 
