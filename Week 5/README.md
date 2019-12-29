@@ -12,6 +12,7 @@ val_loss: 6.5750 - val_gender_output_loss: 0.3645 - val_image_quality_output_los
 
 val_gender_output_acc: 0.8372 - val_image_quality_output_acc: 0.5917 - val_age_output_acc: 0.4042 - val_weight_output_acc: 0.6426 - val_bag_output_acc: 0.6245 - val_footwear_output_acc: 0.6300 - val_pose_output_acc: 0.7893 - val_emotion_output_acc: 0.7223
 ```
+```python
 val_gender_output_acc: 0.8372 
 val_image_quality_output_acc: 0.5917 
 val_age_output_acc: 0.4042 
@@ -20,6 +21,7 @@ val_bag_output_acc: 0.6245
 val_footwear_output_acc: 0.6300 
 val_pose_output_acc: 0.7893 
 val_emotion_output_acc: 0.7223
+```
 
 ### Model Summary:
 
