@@ -13,6 +13,7 @@ val_gender_output_acc: 0.8372 - val_image_quality_output_acc: 0.5917 - val_age_o
 
 ### Model Summary:
 
+***
 Model: "model_1"
 __________________________________________________________________________________________________
 Layer (type)                    Output Shape         Param #     Connected to                     
@@ -1731,3 +1732,5 @@ Total params: 74,526,843
 Trainable params: 74,466,299
 Non-trainable params: 60,544
 __________________________________________________________________________________________________
+
+***
