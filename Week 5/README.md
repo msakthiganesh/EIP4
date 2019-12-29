@@ -20,6 +20,11 @@ val_pose_output_acc: 0.7893
 val_emotion_output_acc: 0.7223
 ```
 
+### Loss Plot:
+
+
+
+
 ### Model Summary:
 
 ```python
