@@ -6,12 +6,9 @@
 ### Best Validation Score:
 ```python
 Epoch 93/100
-360/360 [==============================] - 266s 738ms/step - loss: 6.8072 - gender_output_loss: 0.4113 - image_quality_output_loss: 0.8838 - age_output_loss: 1.3721 - weight_output_loss: 0.9589 - bag_output_loss: 0.8507 - footwear_output_loss: 0.8229 - pose_output_loss: 0.6412 - emotion_output_loss: 0.8663 - gender_output_acc: 0.8050 - image_quality_output_acc: 0.5766 - age_output_acc: 0.4036 - weight_output_acc: 0.6352 - bag_output_acc: 0.6147 - footwear_output_acc: 0.6273 - pose_output_acc: 0.7232 - emotion_output_acc: 0.7104 - 
-
-val_loss: 6.5750 - val_gender_output_loss: 0.3645 - val_image_quality_output_loss: 0.8893 - val_age_output_loss: 1.3601 - val_weight_output_loss: 0.9441 - val_bag_output_loss: 0.8338 - val_footwear_output_loss: 0.7959 - val_pose_output_loss: 0.5311 - val_emotion_output_loss: 0.8561 - 
-
-val_gender_output_acc: 0.8372 - val_image_quality_output_acc: 0.5917 - val_age_output_acc: 0.4042 - val_weight_output_acc: 0.6426 - val_bag_output_acc: 0.6245 - val_footwear_output_acc: 0.6300 - val_pose_output_acc: 0.7893 - val_emotion_output_acc: 0.7223
+360/360 [==============================] - 266s 738ms/step - loss: 6.8072 - gender_output_loss: 0.4113 - image_quality_output_loss: 0.8838 - age_output_loss: 1.3721 - weight_output_loss: 0.9589 - bag_output_loss: 0.8507 - footwear_output_loss: 0.8229 - pose_output_loss: 0.6412 - emotion_output_loss: 0.8663 - gender_output_acc: 0.8050 - image_quality_output_acc: 0.5766 - age_output_acc: 0.4036 - weight_output_acc: 0.6352 - bag_output_acc: 0.6147 - footwear_output_acc: 0.6273 - pose_output_acc: 0.7232 - emotion_output_acc: 0.7104 - val_loss: 6.5750 - val_gender_output_loss: 0.3645 - val_image_quality_output_loss: 0.8893 - val_age_output_loss: 1.3601 - val_weight_output_loss: 0.9441 - val_bag_output_loss: 0.8338 - val_footwear_output_loss: 0.7959 - val_pose_output_loss: 0.5311 - val_emotion_output_loss: 0.8561 - val_gender_output_acc: 0.8372 - val_image_quality_output_acc: 0.5917 - val_age_output_acc: 0.4042 - val_weight_output_acc: 0.6426 - val_bag_output_acc: 0.6245 - val_footwear_output_acc: 0.6300 - val_pose_output_acc: 0.7893 - val_emotion_output_acc: 0.7223
 ```
+
 ```python
 val_gender_output_acc: 0.8372 
 val_image_quality_output_acc: 0.5917 
